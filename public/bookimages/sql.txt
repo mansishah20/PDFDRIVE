@@ -1,0 +1,11 @@
+INSERT INTO `books` (`id`, `bname`, `bauthor`, `bpage`, `bsize`, `bcover`, `blanguage`, `bpubdate`, `catid`, `created_at`, `updated_at`) VALUES (NULL, 'Javascript Programming', 'Ethem Mining', '421', '321 KB', '\'Javascript Programming.jpg\'', 'English', '2013-10-12', '5', NULL, NULL);
+INSERT INTO `books` (`id`, `bname`, `bauthor`, `bpage`, `bsize`, `bcover`, `blanguage`, `bpubdate`, `catid`, `created_at`, `updated_at`) VALUES (NULL, 'Pro Javascript Design Patterns', 'Ross Harms', '267', '183 KB', '\'Pro Javascript Design Patterns.jpg\'', 'English', '2014-01-18', '5', NULL, NULL);
+
+
+INSERT INTO `user_masters` (`id`, `uname`, `uemail`, `upassword`, `utype`, `created_at`, `updated_at`) VALUES (NULL, 'Princy Shah', 'princyshah@gmail.com', 'Princy@1234', 'User', '', '');
+INSERT INTO `user_masters` (`id`, `uname`, `uemail`, `upassword`, `utype`, `created_at`, `updated_at`) VALUES (NULL, 'Abhi Shah', 'abhishah@gmail.com', 'Abhi@1234', 'User', '', '');
+INSERT INTO `user_masters` (`id`, `uname`, `uemail`, `upassword`, `utype`, `created_at`, `updated_at`) VALUES (NULL, 'Ansh Shah', 'anshshah@gmail.com', 'Ansh@1234', 'User', '', '');
+
+INSERT INTO `order_masters` (`id`, `bookid`, `userid`, `email`, `created_at`, `updated_at`) VALUES (NULL, '4', '4', 'anshshah@gmail.com', '', '');
+INSERT INTO `order_masters` (`id`, `bookid`, `userid`, `email`, `created_at`, `updated_at`) VALUES (NULL, '2', '2', 'princyshah@gmail.com', '', '');
+INSERT INTO `order_masters` (`id`, `bookid`, `userid`, `email`, `created_at`, `updated_at`) VALUES (NULL, '8', '3', 'abhishah@gmail.com', '', '');
